@@ -9,8 +9,8 @@ r: the rank of X
 k: signal vectors are k-sparse
 '''
 
-def signal_vec(n, k):
-    rvs = sp.stats.norm(loc=0, scale=1).rvs
+def signal_vec(n, k, var=1):
+    rvs = sp.stats.norm(loc=0, scale=var).rvs
     S = sp.sparse.random(n, 1, density=k/n, data_rvs=rvs)
     return S.toarray()
 

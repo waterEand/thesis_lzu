@@ -2,6 +2,13 @@ import numpy as np
 import time
 from signal_vectors import signal_vec, outliers
 
+n = 200
+m = 100
+lam = 0.006
+k = 2
+thr_err = 1e-2
+num_epoch = 500
+
 def A_Gauss(m, n, mean, var):
     Matrix = np.random.normal(mean, var**0.5, size=[m, n])
     Matrix = np.mat(Matrix)
@@ -30,13 +37,6 @@ def PLAD(lambd, iterN, m, n, A, x0, e):
     return x, x0, np.linalg.norm((x-x0), ord=2) / np.linalg.norm(x0, ord=2), max(np.abs(A.T*e))
 
 
-n = 200
-m = 100
-lam = 0.006
-k = 2
-thr_err = 1e-2
-num_epoch = 500
-
 if __name__ == '__main__':
     num_succ_PLAD = 0
     time_sum = 0.
@@ -53,7 +53,6 @@ if __name__ == '__main__':
         end_time = time.time()
         time_sum += (end_time - start_time)
 
-        # print(E_PLAD)
         if E_PLAD < thr_err:
             num_succ_PLAD += 1
 

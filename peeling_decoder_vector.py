@@ -4,7 +4,6 @@ import time
 import numpy as np
 import scipy as sp
 import cmath
-from scipy.special import comb, perm
 from signal_vectors import signal_vec, outliers
 from scipy.sparse import csr_matrix
 from numpy import linalg as LA
