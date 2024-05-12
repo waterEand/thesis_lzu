@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.3)  13 MAY 2024 00:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.3)  13 MAY 2024 01:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -896,8 +896,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip128
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 643.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 643.
+Package hyperref Info: Option `breaklinks' set `true' on input line 642.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 642.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -1306,13 +1306,13 @@ File: figures/bip_g.png Graphic file (type bmp)
 [4
 
 ] [5]
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 372.
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 374.
  [6]
 第三章
 [7
 
 ]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 485.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 487.
  [8] [9]
 第四章
 [10
@@ -1321,13 +1321,13 @@ Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on inp
 File: figures/diff_eta.png Graphic file (type bmp)
 <figures/diff_eta.png>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 654.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 654.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.1> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 654.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
  [11] [12]
-Overfull \hbox (7.115pt too wide) in paragraph at lines 689--701
+Overfull \hbox (7.115pt too wide) in paragraph at lines 691--703
  [][] 
  []
 
