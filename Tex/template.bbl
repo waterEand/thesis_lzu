@@ -1,0 +1,44 @@
+\providecommand{\href}[2]{#2}\begingroup\zihao{5}\begin{thebibliography}{10}\linespread{1}\selectfont\setlength{\baselineskip}{16pt}\setlength{\parskip}{0pt}
+\makeatletter
+\providecommand \href@noop [0]{\@secondoftwo}%
+
+\bibitem{1614066}
+Donoho D. { Compressed sensing}[J]. IEEE Transactions on Information Theory, 2006, 52(4):1289--1306.
+
+\bibitem{PMID:17969013}
+Lustig M, Donoho D, Pauly J~M. { Sparse mri: The application of compressed sensing for rapid mr imaging}[J]. Magnetic resonance in medicine, 2007, 58(6):1182—1195.
+
+\bibitem{Wiaux_2009}
+Wiaux Y, Jacques L, Puy G, et~al. { Compressed sensing imaging techniques for radio interferometry}[J]. Monthly Notices of the Royal Astronomical Society, 2009, 395(3):1733–1742.
+
+\bibitem{elad2010sparse}
+Elad M. \href@noop {} {{ Sparse and redundant representations: from theory to applications in signal and image processing}[M]}. Springer Science \& Business Media, 2010.
+
+\bibitem{gilbert2010sparse}
+Gilbert A, Indyk P. { Sparse recovery using sparse matrices}[J]. Proceedings of the IEEE, 2010, 98(6):937--947.
+
+\bibitem{861970}
+Gastpar M, Bresler Y. { On the necessary density for spectrum-blind nonuniform sampling subject to quantization}[C]. In 2000 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No.00CH37100), volume~1,  348--351 vol.1, 2000.
+
+\bibitem{wainwright2007informationtheoretic}
+Wainwright M~J. { Information-theoretic limits on sparsity recovery in the high-dimensional and noisy setting}[Z], 2007.
+
+\bibitem{10.1214/08-AOS653}
+Cand{\`e}s E~J, Plan Y. { {Near-ideal model selection by ℓ1 minimization}}[J]. The Annals of Statistics, 2009, 37(5A):2145 -- 2177.
+
+\bibitem{5895106}
+Cai T~T, Wang L. { Orthogonal matching pursuit for sparse signal recovery with noise}[J]. IEEE Transactions on Information Theory, 2011, 57(7):4680--4688.
+
+\bibitem{7185441}
+Bakshi M, Jaggi S, Cai S, et~al. { Sho-fa: Robust compressive sensing with order-optimal complexity, measurements, and bits}[J]. IEEE Transactions on Information Theory, 2016, 62(12):7419--7444.
+
+\bibitem{8733902}
+Li X, Yin D, Pawar S, et~al. { Sub-linear time support recovery for compressed sensing using sparse-graph codes}[J]. IEEE Transactions on Information Theory, 2019, 65(10):6580--6619.
+
+\bibitem{doi:10.1137/090777761}
+Yang J, Zhang Y. { Alternating direction algorithms for $\ell_1$-problems in compressive sensing}[J]. SIAM Journal on Scientific Computing, 2011, 33(1):250--278.
+
+\bibitem{WANG2013135}
+Wang L. { The $\ell_1$ penalized lad estimator for high dimensional linear regression}[J]. Journal of Multivariate Analysis, 2013, 120:135--151.
+
+\end{thebibliography}\endgroup
