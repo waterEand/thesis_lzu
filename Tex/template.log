@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.3)  13 MAY 2024 01:34
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.3)  13 MAY 2024 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1246,11 +1246,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+File: figures//sign.pdf Graphic file (type pdf)
+<use figures//sign.pdf>
+File: figures//date.pdf Graphic file (type pdf)
+<use figures//date.pdf>
 
 Underfull \hbox (badness 10000) in alignment at lines 78--78
 [][][][][][][][][][]
  []
 
+File: figures//sign.pdf Graphic file (type pdf)
+<use figures//sign.pdf>
+File: figures//date.pdf Graphic file (type pdf)
+<use figures//date.pdf>
 
 Underfull \hbox (badness 10000) in alignment at lines 78--78
 [][][][][] 
@@ -1297,22 +1305,25 @@ Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
 
 
 ]
+
+LaTeX Warning: Reference `8733902, Huaqiao' on page 2 undefined on input line 200.
+
 File: figures/d_n_c.png Graphic file (type bmp)
 <figures/d_n_c.png>
- [2] [3]
+[2] [3]
 第二章
 File: figures/bip_g.png Graphic file (type bmp)
 <figures/bip_g.png>
 [4
 
 ] [5]
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 374.
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 377.
  [6]
 第三章
 [7
 
 ]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 487.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 490.
  [8] [9]
 第四章
 [10
@@ -1321,30 +1332,34 @@ Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on inp
 File: figures/diff_eta.png Graphic file (type bmp)
 <figures/diff_eta.png>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 659.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 659.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.1> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 656.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 659.
  [11] [12]
-Overfull \hbox (7.115pt too wide) in paragraph at lines 691--703
+Overfull \hbox (7.115pt too wide) in paragraph at lines 694--706
  [][] 
  []
 
-[13] (./template.bbl
+[13]
+第五章
+[14
+
+] (./template.bbl
 Missing character: There is no ℓ ("2113) in font ptmr8t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
-) [14
+) [15
 
 
 
-] [15
+] [16
 
 
-] [16] [17] [18] [19] [20]
+] [17] [18] [19] [20] [21]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -1376,14 +1391,14 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;embolden=4;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-[21
+[22
 
 
 ]
 \tf@thm=\write5
 \openout5 = `template.thm'.
 
- [22
+ [23
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1392,16 +1407,19 @@ enddocument/afterlastpage: lastpage setting LastPage.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.36998pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 70A5629A1FCA63471714C3661B74FA5C;2945.
+(rerunfilecheck)             Checksum: 9FF871C0CE9D4B671277A4E7D1387685;3029.
  ) 
 Here is how much of TeX's memory you used:
- 29919 strings out of 476683
- 600325 string characters out of 5804048
+ 29941 strings out of 476683
+ 600776 string characters out of 5804048
  2046018 words of memory out of 5000000
- 49598 multiletter control sequences out of 15000+600000
+ 49619 multiletter control sequences out of 15000+600000
  663806 words of font info for 340 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,13n,111p,3270b,3830s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,16n,111p,3270b,3830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.pdf (28 pages).
+Output written on template.pdf (29 pages).

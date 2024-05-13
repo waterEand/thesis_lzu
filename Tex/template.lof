@@ -1,0 +1,8 @@
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces “分治法”的概念抽象图。 子图(a)描绘一个稀疏度为3的恢复问题，其中测量矩阵着灰色，表示元素是随机生成的。 由于不同颜色成分（红色、绿色、蓝色）随机混合，导致得到的观测结果呈现混合色。 在子图(b)中，我们通过在每行中放置三个零元素来稀疏化测量矩阵，即图中的白色方格。 由此产生的测量矩阵将稀疏度为3的恢复问题分解为多个稀疏度小于3的子问题。 若子问题的观测值是单一颜色，我们可以立即恢复这一元素。 在这一图中，第一个测量中的红色元素可以被立即恢复，之后再从第二个红蓝元素中把红色剥离，恢复蓝色，以此类推。\relax }}{2}{figure.caption.7}%
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 稀疏测量二部图\relax }}{4}{figure.caption.8}%
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 不同离群值比例下的恢复效果随算法参数变化展示。 图中横坐标表示不同的倍率$\alpha $，纵坐标表示精确恢复率， 四条曲线分别表示离群值比例取$1\%, 2\%, 3\%, 4\%$的情形。 \relax }}{12}{figure.caption.12}%
+\addvspace {10.0pt}
