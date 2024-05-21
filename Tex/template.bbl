@@ -35,6 +35,9 @@ Bakshi M, Jaggi S, Cai S, et~al. { Sho-fa: Robust compressive sensing with order
 \bibitem{8733902}
 Li X, Yin D, Pawar S, et~al. { Sub-linear time support recovery for compressed sensing using sparse-graph codes}[J]. IEEE Transactions on Information Theory, 2019, 65(10):6580--6619.
 
+\bibitem{Huaqiao}
+周华乔, 徐义晗, 孙一凡, 等. { 基于稀疏图码的物联网邻居节点发现}[J]. 计算机应用研究, 2022, 39(6):1829--1833.
+
 \bibitem{doi:10.1137/090777761}
 Yang J, Zhang Y. { Alternating direction algorithms for $\ell_1$-problems in compressive sensing}[J]. SIAM Journal on Scientific Computing, 2011, 33(1):250--278.
 

@@ -4,45 +4,45 @@ The top-level auxiliary file: template.aux
 The style file: bib/lzubib.bst
 Database file #1: bib/database.bib
 Warning--there's a publisher but no address in elad2010sparse
-You've used 14 entries,
+You've used 15 entries,
             2300 wiz_defined-function locations,
-            631 strings with 6545 characters,
-and the built_in function-call counts, 3591 in all, are:
-= -- 332
-> -- 124
+            640 strings with 6748 characters,
+and the built_in function-call counts, 3889 in all, are:
+= -- 360
+> -- 140
 < -- 2
-+ -- 62
-- -- 31
-* -- 295
-:= -- 533
-add.period$ -- 41
-call.type$ -- 14
-change.case$ -- 14
++ -- 70
+- -- 35
+* -- 321
+:= -- 578
+add.period$ -- 44
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 122
-empty$ -- 364
-format.name$ -- 41
-if$ -- 806
+cite$ -- 16
+duplicate$ -- 130
+empty$ -- 390
+format.name$ -- 46
+if$ -- 873
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 14
-newline$ -- 47
-num.names$ -- 14
-pop$ -- 60
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 50
+num.names$ -- 15
+pop$ -- 63
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 77
+skip$ -- 86
 stack$ -- 0
-substring$ -- 351
+substring$ -- 378
 swap$ -- 13
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 29
-width$ -- 16
-write$ -- 156
+while$ -- 31
+width$ -- 17
+write$ -- 167
 (There was 1 warning)

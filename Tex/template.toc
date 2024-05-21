@@ -5,24 +5,25 @@
 \contentsline {subsection}{\numberline {1.1.1}压缩感知问题}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}次线性时间的支撑集恢复算法}{1}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}基于稀疏图码的分治法}{2}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}研究意义与目的}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}本文的贡献}{3}{section.1.3}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}测量矩阵的设计}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}求解算法}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}节点类型检测}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}离群值去除}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}信号恢复}{9}{section.3.3}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}数值实验结果}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}信号恢复效率}{10}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}不同测量次数下的恢复效率}{10}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}不同信号稀疏度下的恢复效率}{11}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}不同离群值比例下的数值效果}{11}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}离群值去除算法的参数大小对数值效果的影响}{11}{section.4.2}%
-\contentsline {section}{\numberline {4.3}与其他信号恢复算法的比较}{12}{section.4.3}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}总结与展望}{14}{chapter.5}%
-\contentsline {chapter}{参考文献}{15}{section*.11}%
-\contentsline {chapter}{附 \hskip 2em\relax 录}{16}{section*.13}%
-\contentsline {section}{\numberline {A.1}主算法代码}{16}{section.6.1}%
-\contentsline {section}{\numberline {A.2}对比算法代码}{19}{section.6.2}%
-\contentsline {section}{\numberline {A.3}信号初始化代码}{21}{section.6.3}%
-\contentsline {chapter}{致\hskip 2em\relax 谢}{22}{section*.15}%
+\contentsline {section}{\numberline {1.2}研究目的与主要贡献}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}论文结构与记号}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}本文结构}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}相关记号}{4}{subsection.1.3.2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}测量矩阵的设计}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}求解算法}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}节点类型检测}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}离群值去除}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}信号恢复}{10}{section.3.3}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}数值实验结果}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}信号恢复效率}{11}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}不同测量次数下的数值效果}{11}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}不同信号稀疏度下的数值效果}{12}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}算法参数大小对数值效果的影响}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}与其他信号恢复算法的比较}{13}{section.4.3}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}总结与展望}{15}{chapter.5}%
+\contentsline {chapter}{参考文献}{16}{section*.10}%
+\contentsline {chapter}{附 \hskip 2em\relax 录}{17}{section*.12}%
+\contentsline {section}{\numberline {A.1}主算法代码}{17}{section.6.1}%
+\contentsline {section}{\numberline {A.2}对比算法代码}{20}{section.6.2}%
+\contentsline {section}{\numberline {A.3}信号初始化代码}{22}{section.6.3}%
+\contentsline {chapter}{致\hskip 2em\relax 谢}{23}{section*.14}%
