@@ -4,7 +4,7 @@
 \LoadClass{ctexbeamer}
 
 \RequirePackage{fontspec}
-
+\setbeamertemplate{caption}[numbered]
 % 分步动画
 \RequirePackage{arev}
 
@@ -110,21 +110,25 @@
 
 
 % 为了兼容，我把这里注释了，建议自己安装并设置好看的字体
-% % 设置中文字体
-% \setCJKmainfont{KaiTi}
-% \setCJKsansfont{KaiTi}
-% \setCJKmonofont{KaiTi}
+% 设置中文字体
+\setCJKmainfont[AutoFakeBold=true]{Kaiti SC}
+\setCJKsansfont[AutoFakeBold=true]{Kaiti SC}
+\setCJKmonofont[AutoFakeBold=true]{Kaiti SC}
 
-% % 设置英文字体
-% % https://fonts.google.com/specimen/Andika+New+Basic
-% \setmainfont{Andika New Basic}
-% \setsansfont{Andika New Basic}
+% 设置英文字体
+% https://fonts.google.com/specimen/Andika+New+Basic
+\setmainfont{Andika}
+\setsansfont{Andika}
 
-% % 代码字体
-% % https://fonts.google.com/specimen/Ubuntu+Mono
-% \setmonofont{Ubuntu Mono}
+% 代码字体
+% https://fonts.google.com/specimen/Ubuntu+Mono
+\setmonofont{Ubuntu Mono}
 
-
+\RequirePackage{algorithm}
+\RequirePackage{algpseudocode}
+\floatname{algorithm}{算法}
+\renewcommand{\algorithmicrequire}{\bfseries{输入:}}
+\renewcommand{\algorithmicensure}{\bfseries{输出:}}
 
 %------------------------------------------------------------
 %目录设置
@@ -137,4 +141,4 @@
   \end{frame}
 }
 %------------------------------------------------------------
-
+\RequirePackage{tablefootnote}
