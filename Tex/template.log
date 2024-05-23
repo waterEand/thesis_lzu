@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.3)  22 MAY 2024 18:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.3)  23 MAY 2024 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1241,26 +1241,30 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
 File: figures//sign.pdf Graphic file (type pdf)
 <use figures//sign.pdf>
 File: figures//date.pdf Graphic file (type pdf)
 <use figures//date.pdf>
 
-Underfull \hbox (badness 10000) in alignment at lines 78--78
+Underfull \hbox (badness 10000) in alignment at lines 79--79
 [][][][][][][][][][]
  []
 
 File: figures//sign.pdf Graphic file (type pdf)
 <use figures//sign.pdf>
+File: figures//sign_peng.png Graphic file (type bmp)
+<figures//sign_peng.png>
 File: figures//date.pdf Graphic file (type pdf)
 <use figures//date.pdf>
+File: figures//date_peng.jpeg Graphic file (type bmp)
+<figures//date_peng.jpeg>
 
-Underfull \hbox (badness 10000) in alignment at lines 78--78
+Underfull \hbox (badness 10000) in alignment at lines 79--79
 [][][][][] 
  []
 
@@ -1314,13 +1318,13 @@ File: figures/bip_g.png Graphic file (type bmp)
 [5
 
 ] [6]
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 414.
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 419.
  [7]
 第三章
 [8
 
 ]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 527.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 532.
  [9] [10]
 第四章
 [11
@@ -1329,11 +1333,11 @@ Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on inp
 File: figures/diff_alpha.png Graphic file (type bmp)
 <figures/diff_alpha.png>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 706.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 711.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 706.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 711.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.1> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 706.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 711.
  [12] [13] [14]
 第五章
 [15
@@ -1387,11 +1391,13 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1118--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1128
 
  []
 
 [24]
+File: figures//sign_peng.png Graphic file (type bmp)
+<figures//sign_peng.png>
 \tf@thm=\write5
 \openout5 = `template.thm'.
 
@@ -1408,10 +1414,10 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: FF3E778BFABEFE75BB26F7349266E017;3035.
  ) 
 Here is how much of TeX's memory you used:
- 30089 strings out of 476683
- 610464 string characters out of 5804048
+ 30122 strings out of 476683
+ 611840 string characters out of 5804048
  2046018 words of memory out of 5000000
- 49766 multiletter control sequences out of 15000+600000
+ 49796 multiletter control sequences out of 15000+600000
  663814 words of font info for 341 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,16n,111p,3270b,3830s stack positions out of 10000i,1000n,20000p,200000b,200000s

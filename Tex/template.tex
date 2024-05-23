@@ -56,24 +56,25 @@
     \includegraphics[width=80pt]{date.pdf}
     % }
 }
-% % 老师的手写签名，signature.pdf 改为老师的手写签名文件名
-% \supervisorsignature{
-%     % \raisebox{-5pt}{
-%     \includegraphics[width=40pt]{signature.pdf}
-%     % }
-% }
-% % 老师手写的时间，signature.pdf 改为老师的手写的日期文件名
-% \teachertime{
-%     % \raisebox{-5pSt}{
-%     \includegraphics[width=40pt]{signature.pdf}
-%     % }
-% }
+% 老师的手写签名，signature.pdf 改为老师的手写签名文件名
+\supervisorsignature{
+    % \raisebox{-5pt}{
+    \includegraphics[width=40pt]{sign_peng.png}
+    % }
+}
+% 老师手写的时间，signature.pdf 改为老师的手写的日期文件名
+\teachertime{
+    % \raisebox{-5pSt}{
+    \includegraphics[width=80pt]{date_peng.jpeg}
+    % }
+}
 % % 老师手写的成绩
 % \recommendedgrade{
 %     % \raisebox{-5pt}{
 %     \includegraphics[width=40pt]{signature.pdf}
 %     % }
 % }
+\recommendedgrade{优}
 
 \makestatement
 
@@ -87,7 +88,11 @@
 %=====%
 
 % 下面这些注释掉可以去掉成绩、评语什么的
-\supervisorcomment{ }
+\supervisorcomment{该论文研究了基于稀疏矩阵测量下的带有离群值的稀疏信号重构. 由于测量矩阵是稀疏的, 
+因而存储空间很小. 对于离群值，可以使用中位数算子去除大的离群值; 
+当去除离群值之后, 可以使用逐层剥离解码重构稀疏信号. 使用这个两阶段方法去除离群值并且重构稀疏信号, 
+其性能明显优于经典的惩罚最小绝对偏差(PLAD)方法. 该论文设计了新的方法，高效的解决了带离群值的稀疏信号重构问题, 
+是一篇优秀的学位论文.}
 
 
 \committeecomment{ }
@@ -519,17 +524,17 @@ $S = \{s: |y_s| < \alpha \theta_p (\{|y_j| : j \in \mathrm{supp} (\mathbf{y})\})
 这样就理论上去除了全部绝对值过大的离群值，
 接下来对被限制的$\mathbf{y}$应用信号重构算法即可。
 
-由于离群向量$\mathbf{f}$的稀疏度$T$是未知的，我们无法简单地抹去绝对值最大的前$T$个元素，因此采取上述设置比例或分界数的方式。
+由于离群向量$\mathbf{f}$的稀疏度$T$是未知的，我们无法简单地抹去绝对值最大的前$T$个元素，因此采取上述设置分位数的方式。
 我们又知道$\mathbf{y}$和$\mathbf{f}$都是稀疏的，所以$\mathbf{y}$和$\mathbf{f}$的支撑集大概率不会存在元素位置重合的情况，
 不会抹去需要参与信号恢复的非离群值。因此，这样直接设为0的方式是合理且可取的。算法伪代码如下：
 
 \begin{algorithm}[H]
     \caption{离群值去除算法\label{Alg:outliers_removal}}
     \begin{algorithmic}[1]
-        \State \textbf{输入}：观测值 $\mathbf{y} \in \mathbb{C}^{2R}$（测量对形式），常数$\alpha$。
-        \State 首先计算得到$\mathbf{y}$的非零元素模的中位数$med = \mathbf{Median}(\{|\mathbf{y}_j[0]|: \mathbf{y}_j[0] \neq 0, \mathbf{y}_j \in \mathbf{y}\})$；
+        \State \textbf{输入}：观测值 $\mathbf{y} \in \mathbb{C}^{2R}$（测量对形式），常数$\alpha$和$p$。
+        \State 首先计算得到$\mathbf{y}$的非零元素模的分位数$q = \theta_p (\{|\mathbf{y}_j[0]|: \mathbf{y}_j[0] \neq 0, \mathbf{y}_j \in \mathbf{y}\})$；
         \For{$r = 1$ to $R$}
-            \If{$|\mathbf{y}_r [0]| > \alpha \cdot med$}
+            \If{$|\mathbf{y}_r [0]| > \alpha \cdot q$}
                 \State 将$\mathbf{y}_r$抹去为$\mathbf{0}$向量；
             \EndIf
         \EndFor
@@ -584,8 +589,8 @@ $S = \{s: |y_s| < \alpha \theta_p (\{|y_j| : j \in \mathrm{supp} (\mathbf{y})\})
 本章我们对无噪声条件下存在离群值的信号恢复问题进行数值模拟，从实验角度出发论证理论内容。
 在本章的实验中，我们通过上一章描述的PAMQ算法对不同情况的离群值问题进行求解。
 先验证算法在不同情形下的高效性，
-之后比较观测离群值去除算法参数不同时的恢复效果，
-最后与同条件下其他算法的效果做比较来证明我们算法的优越性。
+之后比较离群值去除算法参数不同时的恢复效果，
+最后与同条件下其他算法做对比来证明我们算法的优越性。
 
 我们将实验的参数统一设置为：$N = 200$；初始稀疏信号$\mathbf{x} \in \mathbb{R}^N$且
 其中非零元素$x_i \sim N(0,1)$；
