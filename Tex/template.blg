@@ -4,45 +4,45 @@ The top-level auxiliary file: template.aux
 The style file: bib/lzubib.bst
 Database file #1: bib/database.bib
 Warning--there's a publisher but no address in elad2010sparse
-You've used 15 entries,
+You've used 17 entries,
             2300 wiz_defined-function locations,
-            640 strings with 6748 characters,
-and the built_in function-call counts, 3889 in all, are:
-= -- 360
-> -- 140
-< -- 2
-+ -- 70
-- -- 35
-* -- 321
-:= -- 578
-add.period$ -- 44
-call.type$ -- 15
-change.case$ -- 15
+            653 strings with 7316 characters,
+and the built_in function-call counts, 4577 in all, are:
+= -- 425
+> -- 168
+< -- 3
++ -- 84
+- -- 42
+* -- 367
+:= -- 669
+add.period$ -- 50
+call.type$ -- 17
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 130
-empty$ -- 390
-format.name$ -- 46
-if$ -- 873
+cite$ -- 18
+duplicate$ -- 161
+empty$ -- 455
+format.name$ -- 55
+if$ -- 1040
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 15
-newline$ -- 50
-num.names$ -- 15
-pop$ -- 63
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 56
+num.names$ -- 17
+pop$ -- 75
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 86
+skip$ -- 115
 stack$ -- 0
-substring$ -- 378
-swap$ -- 13
-text.length$ -- 2
+substring$ -- 435
+swap$ -- 25
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 31
-width$ -- 17
-write$ -- 167
+while$ -- 36
+width$ -- 19
+write$ -- 189
 (There was 1 warning)

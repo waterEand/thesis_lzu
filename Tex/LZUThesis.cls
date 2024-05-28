@@ -203,6 +203,7 @@
 \RequirePackage{booktabs}
 \RequirePackage{harpoon}
 
+\RequirePackage{multirow}
 \RequirePackage{tablefootnote}
 % 可以换页的表格
 \RequirePackage{longtable}

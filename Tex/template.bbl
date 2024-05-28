@@ -38,6 +38,12 @@ Li X, Yin D, Pawar S, et~al. { Sub-linear time support recovery for compressed s
 \bibitem{Huaqiao}
 周华乔, 徐义晗, 孙一凡, 等. { 基于稀疏图码的物联网邻居节点发现}[J]. 计算机应用研究, 2022, 39(6):1829--1833.
 
+\bibitem{5470141}
+Laska J~N, Davenport M~A, Baraniuk R~G. { Exact signal recovery from sparsely corrupted measurements through the pursuit of justice}[C]. In 2009 Conference Record of the Forty-Third Asilomar Conference on Signals, Systems and Computers,  1556--1560, 2009.
+
+\bibitem{10.1093/imaiai/iaz009}
+Li Y, Chi Y, Zhang H, et~al. { {Non-convex low-rank matrix recovery with arbitrary outliers via median-truncated gradient descent}}[J]. Information and Inference: A Journal of the IMA, 2019, 9(2):289--325.
+
 \bibitem{doi:10.1137/090777761}
 Yang J, Zhang Y. { Alternating direction algorithms for $\ell_1$-problems in compressive sensing}[J]. SIAM Journal on Scientific Computing, 2011, 33(1):250--278.
 

@@ -9,8 +9,8 @@
 \contentsline {section}{\numberline {1.3}论文结构与记号}{3}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}本文结构}{3}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}相关记号}{4}{subsection.1.3.2}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}测量矩阵的设计}{5}{chapter.2}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}求解算法}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}稀疏图编码}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}基于带离群值观测的稀疏图解码}{8}{chapter.3}%
 \contentsline {section}{\numberline {3.1}节点类型检测}{8}{section.3.1}%
 \contentsline {section}{\numberline {3.2}离群值去除}{9}{section.3.2}%
 \contentsline {section}{\numberline {3.3}信号恢复}{10}{section.3.3}%
@@ -21,9 +21,9 @@
 \contentsline {section}{\numberline {4.2}算法参数大小对数值效果的影响}{12}{section.4.2}%
 \contentsline {section}{\numberline {4.3}与其他信号恢复算法的比较}{13}{section.4.3}%
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}总结与展望}{15}{chapter.5}%
-\contentsline {chapter}{参考文献}{16}{section*.10}%
-\contentsline {chapter}{附 \hskip 2em\relax 录}{17}{section*.12}%
-\contentsline {section}{\numberline {A.1}主算法代码}{17}{section.6.1}%
-\contentsline {section}{\numberline {A.2}对比算法代码}{20}{section.6.2}%
-\contentsline {section}{\numberline {A.3}信号初始化代码}{22}{section.6.3}%
-\contentsline {chapter}{致\hskip 2em\relax 谢}{23}{section*.14}%
+\contentsline {chapter}{参考文献}{16}{section*.11}%
+\contentsline {chapter}{附 \hskip 2em\relax 录}{18}{section*.13}%
+\contentsline {section}{\numberline {A.1}主算法代码}{18}{section.6.1}%
+\contentsline {section}{\numberline {A.2}对比算法代码}{21}{section.6.2}%
+\contentsline {section}{\numberline {A.3}信号初始化代码}{23}{section.6.3}%
+\contentsline {chapter}{致\hskip 2em\relax 谢}{24}{section*.15}%
