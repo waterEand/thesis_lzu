@@ -166,6 +166,7 @@
         {picture/}{pic/}{pics/}{image/}{images/}}
 \RequirePackage[svgnames]{xcolor}
 
+\RequirePackage[final]{pdfpages}
 
 % start ------------ 英文字体（含公式、正文）、加粗、斜体  -------------- start
 
