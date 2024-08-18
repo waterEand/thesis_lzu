@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.3)  30 MAY 2024 15:26
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.3)  2 JUN 2024 16:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1431,15 +1431,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 1150--1155
 
  []
 
+File: figures/grade_page.pdf Graphic file (type pdf)
+<use figures/grade_page.pdf>
+File: figures/grade_page.pdf Graphic file (type pdf)
+<use figures/grade_page.pdf>
+File: figures/grade_page.pdf Graphic file (type pdf)
+<use figures/grade_page.pdf, page 1>
+File: figures/grade_page.pdf Graphic file (type pdf)
+<use figures/grade_page.pdf, page 1>
 [25]
-File: figures//sign_peng.png Graphic file (type bmp)
-<figures//sign_peng.png>
+File: figures/grade_page.pdf Graphic file (type pdf)
+<use figures/grade_page.pdf, page 1>
+File: figures/grade_page.pdf Graphic file (type pdf)
+<use figures/grade_page.pdf, page 1>
+File: figures/grade_page.pdf Graphic file (type pdf)
+<use figures/grade_page.pdf, page 1>
+ [26]
+File: figures/rights_letter.pdf Graphic file (type pdf)
+<use figures/rights_letter.pdf>
+File: figures/rights_letter.pdf Graphic file (type pdf)
+<use figures/rights_letter.pdf>
+File: figures/rights_letter.pdf Graphic file (type pdf)
+<use figures/rights_letter.pdf, page 1>
+File: figures/rights_letter.pdf Graphic file (type pdf)
+<use figures/rights_letter.pdf, page 1>
+File: figures/rights_letter.pdf Graphic file (type pdf)
+<use figures/rights_letter.pdf, page 1>
+File: figures/rights_letter.pdf Graphic file (type pdf)
+<use figures/rights_letter.pdf, page 1>
+File: figures/rights_letter.pdf Graphic file (type pdf)
+<use figures/rights_letter.pdf, page 1>
+ [27]
 \tf@thm=\write5
 \openout5 = `template.thm'.
 
- [26
-
-] 
+ 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./template.aux)
 
@@ -1450,12 +1476,12 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 3FC2AF7667E86857AF4B1FA828F78454;3099.
  ) 
 Here is how much of TeX's memory you used:
- 30931 strings out of 476683
- 627471 string characters out of 5804048
+ 30837 strings out of 476683
+ 622468 string characters out of 5804048
  2049018 words of memory out of 5000000
- 50579 multiletter control sequences out of 15000+600000
- 663814 words of font info for 341 fonts, out of 8000000 for 9000
+ 50484 multiletter control sequences out of 15000+600000
+ 638906 words of font info for 297 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,16n,111p,3270b,3830s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,17n,111p,3270b,3830s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.pdf (32 pages).
+Output written on template.pdf (33 pages).
